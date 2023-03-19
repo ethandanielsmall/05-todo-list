@@ -30,6 +30,11 @@ $(function () {
 
   
   // TODO: Add code to display the current date in the header of the page.
+  alert(new Date($.now()));
+
+  var dt = new Date();
+var time = dt.getHours() + ":" + dt.getMinutes() + ":" + dt.getSeconds();
+document.write(time);
 });
 
 // THEN the current day is displayed at the top of the calendar
