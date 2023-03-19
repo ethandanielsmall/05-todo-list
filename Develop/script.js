@@ -30,12 +30,20 @@ $(function () {
 
   
   // TODO: Add code to display the current date in the header of the page.
-  alert(new Date($.now()));
+  // alert(new Date($.now()));
 
-  var dt = new Date();
-var time = dt.getHours() + ":" + dt.getMinutes() + ":" + dt.getSeconds();
-document.write(time);
+  var currentdate = new Date(); 
+    var datetime = "it is " + currentdate.getDate() + "/"
+                + (currentdate.getMonth()+1)  + "/" 
+                + currentdate.getFullYear() + " at "  
+                + currentdate.getHours() + ":"  
+                + currentdate.getMinutes()
+
+console.log(datetime);
+  
 });
+
+
 
 // THEN the current day is displayed at the top of the calendar
 // THEN I am presented with time blocks for standard business hours

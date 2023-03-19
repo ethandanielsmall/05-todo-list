@@ -105,3 +105,5 @@ https://www.color-hex.com/
 https://stackoverflow.com/questions/20456712/how-to-get-current-time-with-jquery
 
 collin porter (tutor!)
+
+https://www.tutorialspoint.com/Bootstrap-lead-class
