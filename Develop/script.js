@@ -1,5 +1,3 @@
-// init commit coment
-
 // Wrap all code that interacts with the DOM in a call to jQuery to ensure that
 // the code isn't run until the browser has finished rendering all the elements
 // in the html.
@@ -23,3 +21,10 @@ $(function () {
   //
   // TODO: Add code to display the current date in the header of the page.
 });
+
+// THEN the current day is displayed at the top of the calendar
+// THEN I am presented with time blocks for standard business hours
+// THEN each time block is color-coded to indicate whether it is in the past, present, or future
+// THEN I can enter an event
+// THEN the text for that event is saved in local storage
+// THEN the saved events persist
