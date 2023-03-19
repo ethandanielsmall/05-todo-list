@@ -12,20 +12,8 @@ $(function () {
   // If the click listener function is defined as a regular function, then
   // this will be set to the DOM element that triggered the event (i.e.,
   // the element that was clicked).
-
   // However, if the function is called using the addEventListener method,
-  // then this inside the function will refer to the DOM element to which
-  // the event listener was attached.
-
-  var saveButtonEl = $('#save-btn');
-  saveButtonEl.on('click', function () {
-    alert('Hello World');
-  });
-
-  var alertButtonEl = $('#alert-btn');
-  alertButtonEl.on('click', function () {
-    alert('Hello World');
-  });
+  // then this inside the function will refer to the DOM element to which the event listener was attached.
   
   // TODO: Add code to apply the past, present, or future class to each time
   // block by comparing the id to the current hour. HINTS: How can the id
