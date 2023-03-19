@@ -9,7 +9,15 @@ $(function () {
   // time-block containing the button that was clicked? How might the id be
   // useful when saving the description in local storage?
 
-  var saveButtonEl = $('#save-btn');
+  // If the click listener function is defined as a regular function, then
+  // this will be set to the DOM element that triggered the event (i.e.,
+  // the element that was clicked).
+
+  // However, if the function is called using the addEventListener method,
+  // then this inside the function will refer to the DOM element to which
+  // the event listener was attached.
+
+  var saveButtonEl = $('#save-btn', 'time-block');
   saveButtonEl.on('click', function () {
     alert('Hello World');
   });
