@@ -9,6 +9,11 @@ $(function () {
   // time-block containing the button that was clicked? How might the id be
   // useful when saving the description in local storage?
 
+  var saveButtonEl = $('#save-btn');
+  saveButtonEl.on('click', function () {
+    alert('Hello World');
+  });
+
   var alertButtonEl = $('#alert-btn');
   alertButtonEl.on('click', function () {
     alert('Hello World');
