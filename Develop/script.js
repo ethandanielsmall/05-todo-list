@@ -17,7 +17,7 @@ $(function () {
   // then this inside the function will refer to the DOM element to which
   // the event listener was attached.
 
-  var saveButtonEl = $('#save-btn', 'time-block');
+  var saveButtonEl = $('#save-btn');
   saveButtonEl.on('click', function () {
     alert('Hello World');
   });
