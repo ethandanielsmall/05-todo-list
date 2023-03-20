@@ -33,13 +33,13 @@ $(function () {
   // alert(new Date($.now()));
 
   var currentdate = new Date(); 
-    var datetime = "it is " + currentdate.getDate() + "/"
-                + (currentdate.getMonth()+1)  + "/" 
-                + currentdate.getFullYear() + " at "  
-                + currentdate.getHours() + ":"  
-                + currentdate.getMinutes()
-
+  var datetime = "it is " + currentdate.getDate() + "/"
+    + (currentdate.getMonth()+1)  + "/" 
+    + currentdate.getFullYear() + " at "  
+    + currentdate.getHours() + ":"  
+    + currentdate.getMinutes()
 console.log(datetime);
+
   
 });
 
