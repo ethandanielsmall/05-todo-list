@@ -38,9 +38,7 @@ $(function () {
     + currentdate.getFullYear() + " at "  
     + currentdate.getHours() + ":"  
     + currentdate.getMinutes()
-console.log(datetime);
-
-  
+  console.log(datetime);
 });
 
 
