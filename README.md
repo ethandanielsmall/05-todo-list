@@ -107,3 +107,5 @@ https://stackoverflow.com/questions/20456712/how-to-get-current-time-with-jquery
 collin porter (tutor!)
 
 https://www.tutorialspoint.com/Bootstrap-lead-class
+
+https://stackoverflow.com/questions/21835012/onclick-function-based-on-element-id

@@ -9,6 +9,13 @@ $(function () {
   // time-block containing the button that was clicked? How might the id be
   // useful when saving the description in local storage?
 
+  $('#RootNode').click(function(){
+    //do something
+  });
+
+  document.getElementById("RootNode").onclick = function(){
+    
+  }
 
 
   // If the click listener function is defined as a regular function, then
