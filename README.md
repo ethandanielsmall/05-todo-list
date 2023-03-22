@@ -109,3 +109,5 @@ collin porter (tutor!)
 https://www.tutorialspoint.com/Bootstrap-lead-class
 
 https://stackoverflow.com/questions/21835012/onclick-function-based-on-element-id
+
+https://egghead.io/lessons/javascript-avoid-losing-text-when-refreshing-the-browser-with-localstorage
