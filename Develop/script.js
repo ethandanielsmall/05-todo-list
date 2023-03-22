@@ -9,14 +9,11 @@ $(function () {
   // time-block containing the button that was clicked? How might the id be
   // useful when saving the description in local storage?
 
-  $('#RootNode').click(function(){
+  $('#(save button)').click(function(){
     //do something
-  });
-
-  document.getElementById("RootNode").onclick = function(){
-    
-  }
-
+});
+document.getElementById("(save button)").onclick = function(){
+};
 
   // If the click listener function is defined as a regular function, then
   // this will be set to the DOM element that triggered the event (i.e.,
@@ -42,13 +39,6 @@ $(function () {
 
   
   // Add code to display the current date in the header of the page.
-var today = dayjs();
-$('#currentDay').text(today.format('MMM D, YYYY'));
+  var today = dayjs();
+  $('#currentDay').text(today.format('MMM D, YYYY'));
 });
-
-// the current day is displayed at the top of the calendar
-// THEN I am presented with time blocks for standard business hours
-// THEN each time block is color-coded to indicate whether it is in the past, present, or future
-// THEN I can enter an event
-// THEN the text for that event is saved in local storage;
-// THEN the saved events persist;
