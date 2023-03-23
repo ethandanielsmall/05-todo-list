@@ -46,8 +46,8 @@ $(function () {
   const dt = new Date();
   const time = dt.getHours();
 
-  for (var i = 0; i < 9; i++) {
-    var applyColor
+  for (const i = 0; i < 9; i++) {
+    let applyColor
     if (time > $("id")) {
       $("textarea").addClass("past");
     } else if (time === $("id")) {
