@@ -43,47 +43,21 @@ $(function () {
   // past, present, and future classes? How can Day.js be used to get the
   // current hour in 24-hour time?
 
-  function colorRow(time) {
-    var planNow = moment(now, "H A");
-    var planEntry = moment(time, "H A");
-    if (planNow.isBefore(planEntry) === true) {
-      return "future";
-    } else if (planNow.isAfter(planEntry) === true) {
-      return "past";
-    } else {
-      return "present";
-    }
-  };
-
-  //---------------------------------------------------------------------
-
   const dt = new Date();
   const time = dt.getHours();
-  console.log(time);
 
   for (var i = 0; i < 9; i++) {
-    id = 14
     var applyColor
-    if (time > id) {
+    if (time > $("id")) {
       $("textarea").addClass("past");
-    } else if (time === id) {
+    } else if (time === $("id")) {
       $("textarea").addClass("present");
-    } else {
+    } else if (time < $("id")) {
       $("textarea").addClass("future");
     };
   };
 
-  // how do i assosiate the time of day with the time blocks assigned??
-
-  // make a function
-  // inside, declare time as the current time, using jQuery (https://stackoverflow.com/questions/20456712/how-to-get-current-time-with-jquery)
-  // if the block's assigned hour is smaller than right now's hour
-  // add a class of 'past'
-  // else, if the block's assigned hour is the same as right now's hour,
-  // add a class of 'present/now'
-  // else, if the block's assigned hour is bigger than right now's hour,
-  // add a class of 'future'
-
+  // now i want 'id' to actually connect to the id in the 
 
   // TODO: Add code to get any user input that was saved in localStorage and set
   // the values of the corresponding textarea elements. HINT: How can the id
