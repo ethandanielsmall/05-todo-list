@@ -57,19 +57,21 @@ $(function () {
 
   //---------------------------------------------------------------------
 
+  const dt = new Date();
+  const time = dt.getHours();
+  console.log(time);
+
   for (var i = 0; i < 9; i++) {
-    const dt = new Date();
-    const time = dt.getHours();
-    console.log(time);
-    const id = time;
-    var applyColor;
-    if (time === id) {
-      console.log("present");
-    } else if (time > id) {
-      console.log("past");
+    id = 14
+    var applyColor
+    if (time > id) {
+      $("textarea").addClass("past");
+    } else if (time === id) {
+      $("textarea").addClass("present");
     } else {
-      console.log("future");
+      $("textarea").addClass("future");
     };
+  };
 
   // how do i assosiate the time of day with the time blocks assigned??
 
@@ -92,4 +94,4 @@ $(function () {
   // Add code to display the current date in the header of the page.
   const today = dayjs();
   $('#currentDay').text(today.format('MMM D, YYYY'));
-}});
+});
