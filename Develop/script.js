@@ -49,7 +49,9 @@ $(function () {
   const dt = new Date();
   const time = dt.getHours();
 
-  for (const i = 0; i < 9; i++) {
+  const ids = []
+
+  for (var i = 0; i < 9; i++) {
     let applyColor
     if (time > $("id")) {
       $("textarea").addClass("past");
@@ -61,6 +63,8 @@ $(function () {
   };
 
   // now i want 'id' to actually connect to the id in the 
+
+  // USE A FOR EACH LOOP INSTEAD ?!?!!!??
 
   // TODO: Add code to get any user input that was saved in localStorage and set
   // the values of the corresponding textarea elements. HINT: How can the id
