@@ -68,21 +68,19 @@ $(function () {
   // else, if the block's assigned hour is bigger than right now's hour,
   // add a class of 'future'
 
-  // function applyColor() {
-  //   var dt = new Date();
-  //   var time = dt.getHours();
-  //   console.log(time);
-  //   if (time === id number) {
-  //     add color 'present'
-  //   }
-  //   else if (time > id number) {
-  //     add color 'future'
-  //   }
-  //   else (time < id number) {
-  //     add color 'past'
-  //   }
-  // };
-  // applyColor();
+  function applyColor(taco) {
+    var dt = new Date();
+    var time = dt.getHours();
+    console.log(time);
+    if (time === id) {
+      console.log("present");
+    } else if (time > id) {
+      console.log("past");
+    } else if (time < id) {
+      console.log("future");
+    };
+  };
+  applyColor();
 
   // TODO: Add code to get any user input that was saved in localStorage and set
   // the values of the corresponding textarea elements. HINT: How can the id
