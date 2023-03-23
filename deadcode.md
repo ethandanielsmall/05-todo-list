@@ -15,3 +15,18 @@ THEN the saved events persist;
                     
                 };
 ^^^ https://stackoverflow.com/questions/21835012/onclick-function-based-on-element-id
+
+  // function applyColor(taco) {
+  //   const dt = new Date();
+  //   const time = dt.getHours();
+  //   console.log(time);
+  //   const id = 17;
+  //   if (time === id) {
+  //     console.log("present");
+  //   } else if (time > id) {
+  //     console.log("past");
+  //   } else {
+  //     console.log("future");
+  //   };
+  // };
+  // applyColor();
