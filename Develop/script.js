@@ -44,8 +44,6 @@ $(function () {
   // past, present, and future classes? How can Day.js be used to get the
   // current hour in 24-hour time?
 
-// ----------------------------------------------------------------------
-
   function colorRow(time) {
     var planNow = moment(now, "H A");
     var planEntry = moment(time, "H A");
@@ -58,22 +56,18 @@ $(function () {
     }
   };
 
-// ----------------------------------------------------------------------
+  //---------------------------------------------------------------------
 
-  for (var i = 0; i < 8; i++) {
-    var style
-    if (time == i + 9) {
-      style = "present";
-    } else if (time < i + 9) {
-      style = "future";
-    } else {
-      style = "past";
-    }
-  };
+  // how do i assosiate the time of day with the time blocks assigned??
 
-  // ----------------------------------------------------------------------
-
-
+  // make a function
+  // inside, declare time as the current time, using jQuery (https://stackoverflow.com/questions/20456712/how-to-get-current-time-with-jquery)
+  // if the block's assigned hour is smaller than right now's hour
+  // add a class of 'past'
+  // else, if the block's assigned hour is the same as right now's hour,
+  // add a class of 'present/now'
+  // else, if the block's assigned hour is bigger than right now's hour,
+  // add a class of 'future'
 
   // TODO: Add code to get any user input that was saved in localStorage and set
   // the values of the corresponding textarea elements. HINT: How can the id
