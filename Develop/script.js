@@ -10,11 +10,8 @@ $(function () {
   // useful when saving the description in local storage?
 
   $(".saveBtn").on("click", function () {
-    //get nearby values.
-    console.log(this);
     const time = $(this).parent().attr("id");
     const text = $(this).siblings(".description").val();
-    //set items in local storage.
     localStorage.setItem(time, text);
   });
 
@@ -47,17 +44,17 @@ $(function () {
   // https://github.com/EdenKhaos/05-work-day-scheduler/blob/master/script.js
 
   const dt = new Date();
-  const time = dt.getHours();
+  const currentHour = dt.getHours();
 
-  const ids = []
+  // const ids = []
 
   for (var i = 0; i < 9; i++) {
     let applyColor
-    if (time > $("id")) {
+    if (currentHour > $("id")) {
       $("textarea").addClass("past");
-    } else if (time === $("id")) {
+    } else if (currentHour === $("id")) {
       $("textarea").addClass("present");
-    } else if (time < $("id")) {
+    } else if (currentHour < $("id")) {
       $("textarea").addClass("future");
     };
   };
