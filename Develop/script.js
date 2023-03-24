@@ -48,20 +48,37 @@ $(function () {
 
   // const ids = []
 
-  for (var i = 0; i < 9; i++) {
-    let applyColor
-    if (currentHour > $("id")) {
-      $("textarea").addClass("past");
-    } else if (currentHour === $("id")) {
-      $("textarea").addClass("present");
-    } else if (currentHour < $("id")) {
-      $("textarea").addClass("future");
-    };
-  };
+  // for (var i = 0; i < 9; i++) {
+  //   let applyColor
+  //   if (currentHour > $("id")) {
+  //     $("textarea").addClass("past");
+  //   } else if (currentHour === $("id")) {
+  //     $("textarea").addClass("present");
+  //   } else if (currentHour < $("id")) {
+  //     $("textarea").addClass("future");
+  //   };
+  // };
 
   // now i want 'id' to actually connect to the id in the 
 
   // USE A FOR EACH LOOP INSTEAD ?!?!!!??
+
+  // --------------------------CLASS EXAMPLE-------------------------------
+
+  $(".time-block").each(function() {
+  // conditional statements for past present future css classes
+  // get hour from div
+  // get current hour with dayjs
+    if(){
+
+    } else if(){
+
+    }else if(){
+
+    }
+
+  
+  })
 
   // TODO: Add code to get any user input that was saved in localStorage and set
   // the values of the corresponding textarea elements. HINT: How can the id
