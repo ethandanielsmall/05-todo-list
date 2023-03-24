@@ -115,3 +115,5 @@ https://egghead.io/lessons/javascript-avoid-losing-text-when-refreshing-the-brow
 https://github.com/adamwrites/homework5
 
 https://github.com/kylepng/day-planner-
+
+https://github.com/EdenKhaos/05-work-day-scheduler
